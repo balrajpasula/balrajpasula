@@ -95,13 +95,13 @@ Django app deployed through a Jenkins CI/CD pipeline
 ### 🔍 Production stories I've written up
 
 ```console
-$ kubectl get incidents --all-namespaces -o wide
-AREA               FINDING                                                                  STATUS
-Docker storage     reclaimed 41+ GB on a production server (743 → 22 images)               ✅ resolved
-                   by fixing the rebuild workflow
-Kubernetes 502     traced an outage to a broken CoreDNS after a control-plane restart       ✅ resolved
-AWS cost           found a ~$223 Lightsail bandwidth overage caused by a                    ✅ resolved
-                   non-incremental nightly backup
+$ kubectl get incidents --status=resolved
+✅ Docker storage   reclaimed 41+ GB on a production server
+                    (743 → 22 images) by fixing the rebuild workflow
+✅ Kubernetes 502   traced an outage to a broken CoreDNS
+                    after a control-plane restart
+✅ AWS cost         found a ~$223 Lightsail bandwidth overage
+                    caused by a non-incremental nightly backup
 ```
 
 Full write-ups are on my [LinkedIn](https://www.linkedin.com/in/balraj-pasula/recent-activity/all/).
