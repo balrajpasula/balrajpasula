@@ -120,7 +120,7 @@ Full write-ups are on my [LinkedIn](https://www.linkedin.com/in/balraj-pasula/re
 <!--ACTIVITY:START-->
 | time (IST) | event |
 |---|---|
-| — | quiet week, probably debugging prod |
+| Nov 24 · 17:05 | 🚀 pushed 1 commit to **openvpn-split-tunnel-guide** |
 <!--ACTIVITY:END-->
 
 ### 🐍 Contribution graph
